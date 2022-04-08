@@ -3,13 +3,15 @@ permalink: /404.html
 layout: default
 ---
 
-<script>
-<!-- Redirect drone -->
-var l = window.location;
-if (l.pathname.startsWith("/drone/")) {
-  l.replace("/drone/404.html");
-}
-</script>
+<head>
+  <script>
+    <!-- Redirect drone -->
+    var l = window.location;
+    if (l.pathname.startsWith("/drone/")) {
+      l.replace("/drone/404.html");
+    }
+  </script>
+</head>
 
 <style type="text/css" media="screen">
   .container {
