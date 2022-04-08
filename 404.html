@@ -25,9 +25,8 @@ layout: default
 </div>
 
 <script>
-window.onload = function() {
-  if (window.location.pathname.startsWith("/drone/")) {
-    window.location.replace("/drone/");
-  }
+<!-- Redirect drone -->
+if (window.location.pathname.startsWith("/drone/")) {
+  window.location.replace("/drone/404.html");
 }
 </script>
