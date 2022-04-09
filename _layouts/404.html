@@ -9,9 +9,7 @@
       .then(data => {
         document.documentElement.innerHTML = data;
         var scripts = document.getElementsByTagName("script");
-        // skip livereload.js
-        for (let index = 1; index < scripts.length; index++) {
-          const script = scripts[index];
+        for (const script of scripts) {
           import(script.src);
         }
       });
