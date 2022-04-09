@@ -13,13 +13,16 @@
           import(script.src);
         }
       });
+  } else {
+    window.onload = (event) => {
+      document.body.style.visibility = "visible";
+    };
   }
-
 </script>
 
 {%- include head.html -%}
 
-<body>
+<body style="visibility:hidden;">
 
   {%- include header.html -%}
 
