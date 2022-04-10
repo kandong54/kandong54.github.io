@@ -11,7 +11,12 @@
 
 <body class="mat-typography mat-app-background" style="margin: 0px;">
   <app-root></app-root>
-<script src="runtime.26240466b04d6c18.js" type="module"></script><script src="polyfills.9ff44a239492d7f8.js" type="module"></script><script src="main.f61e0271a901df7e.js" type="module"></script>
+  <script>
+    // This hides the address bar on mobile browsers
+    // https://developers.google.com/web/fundamentals/native-hardware/fullscreen/
+    window.addEventListener('load', function () { window.scrollTo(0, 1); });
+  </script>
+<script src="runtime.5f75731395a867f1.js" type="module"></script><script src="polyfills.9ff44a239492d7f8.js" type="module"></script><script src="main.4b749c83a4c96b4d.js" type="module"></script>
 
 
 </body></html>

@@ -66,6 +66,12 @@ MIT
 @angular/router
 MIT
 
+google-protobuf
+BSD-3-Clause
+
+grpc-web
+Apache-2.0
+
 rxjs
 Apache-2.0
                                Apache License
