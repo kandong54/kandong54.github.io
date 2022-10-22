@@ -1,2 +1,2 @@
-# [kand.dev](https://kand.dev)
+# [io.kand.dev](https://io.kand.dev)
 Hello, World!
