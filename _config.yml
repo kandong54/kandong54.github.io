@@ -39,8 +39,8 @@ minima:
 
   # generate social links in footer
   social_links:
-    github:  kandong54
-    linkedin: kan-dong  
+    - { platform: github,         user_url: "https://github.com/kandong54" }
+    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/kan-dong" }
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
